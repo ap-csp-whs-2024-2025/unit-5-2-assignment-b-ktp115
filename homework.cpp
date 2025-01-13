@@ -40,6 +40,34 @@ int main()
         curr_index = curr_index + 1;
     }
     std::cout << sum << "\n";
+    
+    //4
+    curr_index = 0;
+    while(curr_index < num.size())
+    {
+        if(num[curr_index]%2 == 1)
+        {
+            std::cout << num[curr_index] << " ";
+        }
+        curr_index = curr_index + 1;
+    }
+    std::cout << "\n";
+
+    //5
+    //idk lol
+    
+    //6
+    int max = num[1];
+    curr_index = 0;
+    while(curr_index < num.size())
+    {
+        if(num[curr_index] > max)
+        {
+            max = num[curr_index];
+        }
+        curr_index = curr_index + 1;
+    }
+    std::cout << "Max is " << max << "\n";
     return 0;
 }
 
